@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Crud.js"></script>
+    <link rel="stylesheet" href="Crud.css">
+</head>
+
+<body>
+    <main>
+        <div class="get">
+            <h2>Emp Details</h2>
+            <form action="" id="form">
+                <input type="text" id="username" placeholder="Emp name" required /><br><br>
+                <input type="text" id="id" placeholder="Emp id" required></input><br><br>
+                <input type="text" id="city" placeholder="City" required></input><br><br>
+                <input type="submit" id="subbtn" onclick="sub()" value="Submit">
+                <input type="reset" value="reset">
+                <br><br><br>
+                <!-- <div id="returnmsg">
+                </div> -->
+            </form>
+        </div>
+        <div class="show">
+            <table id="table">
+                <tr class="main">
+                    <td class="username">
+                        <h2>Emp Name</h2>
+                    </td>
+                    <td class="pass">
+                        <h2>Emp id</h2>
+                    </td>
+                    <td class="web">
+                        <h2>City</h2>
+                    </td>
+                    <td>
+                        <h2>Action</h2>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </main>
+</body>
+
+</html>

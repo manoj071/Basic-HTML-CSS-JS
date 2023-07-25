@@ -1,0 +1,23 @@
+main
+{
+    display: flex;
+}
+.get
+{
+    margin: 25vh auto;
+}
+.show
+{
+    margin: 20vh auto;
+    position: relative;
+}
+table, th, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td
+{
+    width: 10vw;
+    text-align: center;
+}
